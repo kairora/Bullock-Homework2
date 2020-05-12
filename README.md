@@ -1,2 +1,2 @@
 # Bullock-Homework2
-2nd Homework Assignment
+2nd Homework Assignment: Responsive Portfolio
