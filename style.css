@@ -1,0 +1,30 @@
+.border-info {
+    border-top-width: 5px !important;;
+    text-align: center;
+}
+h1 {
+    font-family: Merriweather;
+}
+/* header {
+    
+} */
+header h1 {
+    margin-bottom: 0;
+    position: fixed;
+    bottom: 0;
+}
+p {
+    font-size: 9px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin-bottom: 0;
+}
+.container {
+    background-color: rgb(247, 248, 250)
+}
