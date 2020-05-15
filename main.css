@@ -1,8 +1,9 @@
 .navbar {
-    height: 109px;
+    height: 115px;
 }
 
 nav h1 {
     height: 115px;
     padding: 32px 16px 0 16px;
+    margin: 47px;
 }
