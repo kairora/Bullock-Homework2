@@ -5,18 +5,23 @@
 h1 {
     font-family: Merriweather;
 }
-/* header {
-    
-} */
 header h1 {
-    margin-bottom: 0;
-    position: fixed;
-    bottom: 0;
-}
-p {
-    font-size: 9px;
+    text-align: center;
+    margin: 0 0 0 47px;
+    float: left;
 }
 
+.col-lg-4 {
+    width: 35%
+}
+
+.col-lg-8 {
+    width: 65%
+}
+
+/* .navbar-nav {
+    width: 80px;
+} */
 footer {
     position: fixed;
     bottom: 0;
@@ -24,7 +29,17 @@ footer {
 }
 footer p {
     margin-bottom: 0;
+    font-size: 9px;
 }
-.container {
+.container-fluid {
     background-color: rgb(247, 248, 250)
 }
+/* @media (min-width: 980px) {
+    /* nav, header h1 {
+       width: 100%;
+    } */
+    
+    /* nav {
+    position: fixed;
+    top: 15%;
+} */
