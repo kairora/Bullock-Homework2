@@ -15,7 +15,9 @@ body {
     margin: 48px;
     max-width: 591px;
 }
-   
+.card h1 {
+    margin-bottom: 25px;
+}
 footer {
     position: fixed;
     bottom: 0;
