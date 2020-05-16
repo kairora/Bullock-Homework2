@@ -7,15 +7,20 @@ nav h1 {
     padding: 32px 16px 0 16px;
     margin: 47px;
 }
+
 body {
     background: -webkit-gradient(linear, left top, left bottom, from(rgb(204, 238, 255)), to(rgb(247, 204, 255))) fixed; /* Gradient code is from Overstack: https://stackoverflow.com/questions/2869212/css3-gradient-background-set-on-body-doesnt-stretch-but-instead-repeats */
 }
+.card {
+    margin: 48px;
+    max-width: 591px;
+}
+   
 footer {
     position: fixed;
     bottom: 0;
     width: 100%;
 }
-
 footer .bg-dark {
     margin-bottom: 0;
     height: 100px;
@@ -28,4 +33,69 @@ footer p {
 .border-info {
     border-top-width: 5px !important;;
 
+}
+.col-md-9 {
+    padding: 0px;
+    margin-left:16px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin: 15px;
+        max-width: 100%;
+    }
+
+    .col-md-12 {
+        margin-top: 9px;
+    }
+
+    nav h1 {
+        margin: 0
+    }
+
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar ul{
+        flex-direction: row;
+    }
+    .navbar-brand {
+        padding-top: 0;
+    }
+    .navbar ul > li {
+        margin-left: 12px;
+    }
+} 
+
+@media (max-width: 640px) {
+    .card {
+        margin: 15px;
+        max-width: 734px;
+    }
+    .col-md-12 {
+        margin-top: 9px;
+    } 
+    
+
+    nav ul {
+        margin-left: auto;
+    }
+
+    nav h1 {
+        text-align: center;
+    }
+    .navbar-brand {
+        width: 100%;
+        padding-top: 0;
+        margin-right: 0;
+    }
+    .navbar ul{
+        margin-right: auto;
+    }
+    .navbar {
+        padding: 0;
+        height: 170px;
+    }    
 }
