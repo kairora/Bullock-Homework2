@@ -18,21 +18,23 @@ body {
 .card .col-md-6, .card .col-md-12 {
     padding: 0;
 }
-.col-md-6 img{
-    padding-bottom: 25px;
-}
 .parent {
     position: relative;
+    
+}
+.parent img {
+    object-fit: cover;
+    width: 200px;
+    height: 175px;
+    padding-bottom: 25px;
 }
 .child {
     position: absolute;
-    margin-top: 110px;
+    margin-top: 90px;
     margin-left: 60px;
     width: 199px;
-    height: 55px;
+    height: 45px;
     align-items: center;
-    /* margin-bottom: 0;
-    margin-right: 0; */
 }
 .card h1 {
     margin-bottom: 25px;
