@@ -1,3 +1,7 @@
+/* Adding in Google Fonts */
+h1 {
+    font-family: 'Satisfy', cursive;
+}
 .navbar {
     height: 115px;
 }
@@ -7,7 +11,6 @@ nav h1 {
     padding: 32px 16px 0 16px;
     margin: 47px;
 }
-
 body {
     background: -webkit-gradient(linear, left top, left bottom, from(rgb(204, 238, 255)), to(rgb(247, 204, 255))) fixed; /* Gradient code is from Overstack: https://stackoverflow.com/questions/2869212/css3-gradient-background-set-on-body-doesnt-stretch-but-instead-repeats */
 }
@@ -21,6 +24,9 @@ body {
 .parent {
     position: relative;
     
+}
+.child p {
+    padding-top: 10px;
 }
 .parent img {
     object-fit: cover;
@@ -88,7 +94,16 @@ footer p {
     .navbar ul > li {
         margin-left: 12px;
     }
+    .child {
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 39px;
+        width: 300px;
+        height: 45px;
+        align-items: center;
+    }
 } 
+
 
 @media (max-width: 640px) {
     .card {
@@ -97,13 +112,10 @@ footer p {
     }
     .col-md-12 {
         margin-top: 9px;
-    } 
-    
-
+    }
     nav ul {
         margin-left: auto;
     }
-
     nav h1 {
         text-align: center;
     }
@@ -119,7 +131,24 @@ footer p {
         padding: 0;
         height: 170px;
     } 
+    .parent img {
+        object-fit: cover;
+        width: 200px;
+        height: 175px;
+        padding-bottom: 25px;
+    }
+    .child {
+        position: absolute;
+        margin-top: 90px;
+        margin-left: 199px;
+        width: 200px;
+        height: 45px;
+        align-items: center;
+    }
     footer {
         position: sticky;
-    }      
+    }  
+    footer {
+        position: sticky;
+    }     
 }

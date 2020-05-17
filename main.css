@@ -1,3 +1,7 @@
+/* Adding in Google Fonts */
+h1 {
+    font-family: 'Satisfy', cursive;
+}
 /* Navbar Structure */
 .navbar {
     height: 115px;

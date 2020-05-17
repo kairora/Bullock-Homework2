@@ -1,3 +1,7 @@
+/* Adding in Google Fonts */
+h1 {
+    font-family: 'Satisfy', cursive;
+}
 .navbar {
     height: 115px;
 }
@@ -104,5 +108,7 @@ footer p {
         padding: 0;
         height: 170px;
     }    
-    
+    footer {
+        position: sticky;
+    } 
 }
