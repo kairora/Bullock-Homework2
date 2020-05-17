@@ -15,8 +15,24 @@ body {
     margin: 48px;
     max-width: 591px;
 }
-article .col-md-6 {
-    
+.card .col-md-6, .card .col-md-12 {
+    padding: 0;
+}
+.col-md-6 img{
+    padding-bottom: 25px;
+}
+.parent {
+    position: relative;
+}
+.child {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 60px;
+    width: 199px;
+    height: 55px;
+    align-items: center;
+    /* margin-bottom: 0;
+    margin-right: 0; */
 }
 .card h1 {
     margin-bottom: 25px;
@@ -37,13 +53,12 @@ footer p {
 }
 .border-info {
     border-top-width: 5px !important;;
-
 }
 .col-md-9 {
     padding: 0px;
     margin-left:16px;
 }
-
+/* Media Queries for Responsive Web Design - 768px Max-Width */
 @media (max-width: 768px) {
     .card {
         margin: 15px;
@@ -57,7 +72,6 @@ footer p {
     nav h1 {
         margin: 0
     }
-
     .navbar {
         padding-top: 0;
         padding-bottom: 0;
