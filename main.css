@@ -64,15 +64,17 @@ footer p {
         padding-top: 0;
         padding-bottom: 0;
     }
+    .navbar {
+        padding-bottom: 0;
+    }
 
     .navbar ul{
         flex-direction: row;
     }
-    .navbar-brand {
-        padding-top: 0;
+    /* .navbar-brand {
         padding-bottom: .8125rem;
         
-    }
+    } */
     .navbar ul > li {
         margin-left: 12px;
     }

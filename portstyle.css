@@ -15,6 +15,9 @@ body {
     margin: 48px;
     max-width: 591px;
 }
+article .col-md-6 {
+    
+}
 .card h1 {
     margin-bottom: 25px;
 }
@@ -99,5 +102,8 @@ footer p {
     .navbar {
         padding: 0;
         height: 170px;
-    }    
+    } 
+    footer {
+        position: sticky;
+    }      
 }
