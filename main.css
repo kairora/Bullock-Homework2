@@ -68,7 +68,6 @@ footer p {
     color: #17a2b8;
     margin: 5px;
     font-size: 35px;
-
 }
 footer section {
     display: flex;
@@ -91,7 +90,7 @@ footer section {
     }
     .img-fluid {
         max-width: 50%;
-        max-width: 
+
     }
     .col-md-12 {
         margin-top: 9px;
