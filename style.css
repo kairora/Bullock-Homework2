@@ -11,6 +11,11 @@ nav h1 {
     padding: 32px 16px 0 16px;
     margin: 47px;
 }
+.nav-link:focus {
+    background-color: #17a2b8;
+    color: white;
+}
+
 #exampleFormControlTextarea1 {
     height: 200px;
 }
@@ -24,6 +29,7 @@ body {
 .btn {
     width: 100px;
 }    
+/* Footer CSS */
 footer {
     position: fixed;
     bottom: 0;
@@ -35,8 +41,33 @@ footer .bg-dark {
 }
 footer p {
     text-align: center;
-    margin-top: 25px;
+    /* margin-top: 25px; */
     font-size: 12px;
+    margin-bottom: 0;
+}
+#linkedin {
+    color: rgb(247, 204, 255);
+}
+#linkedin:hover {
+    color: rgb(232, 131, 250)
+}
+.socialIcon {
+    text-align: center;
+    display: block; 
+    color: #17a2b8;
+    margin: 5px;
+    font-size: 35px;
+
+}
+footer section {
+    display: flex;
+}
+
+#github {
+    margin-left: auto;
+}
+#email {
+    margin-right: auto;
 }
 .border-info {
     border-top-width: 5px !important;;

@@ -11,6 +11,11 @@ nav h1 {
     padding: 32px 16px 0 16px;
     margin: 47px;
 }
+.nav-link:focus {
+    background-color: #17a2b8;
+    color: white;
+}
+
 /* Body background gradient. The Gradient code source is from Overstack: https://stackoverflow.com/questions/2869212 css3-gradient-background-set-on-body-doesnt-stretch-but-instead-repeats */
 body {
     background: -webkit-gradient(linear, left top, left bottom, from(rgb(204, 238, 255)), to(rgb(247, 204, 255))) fixed; 
@@ -30,11 +35,16 @@ body {
 .img-fluid {
     max-width: 30%;
 }
+#briphoto {
+    border: 5px solid;
+    border-image-source: linear-gradient(45deg, rgb(204, 238, 255), rgb(247, 204, 255));
+    border-image-slice: 1;
+}
 /* Footer CSS */
 footer {
+    position: fixed;
     bottom: 0;
     width: 100%;
-    position: fixed;
 }
 footer .bg-dark {
     margin-bottom: 0;
@@ -42,9 +52,35 @@ footer .bg-dark {
 }
 footer p {
     text-align: center;
-    margin-top: 25px;
+    /* margin-top: 25px; */
     font-size: 12px;
+    margin-bottom: 0;
 }
+#linkedin {
+    color: rgb(247, 204, 255);
+}
+#linkedin:hover {
+    color: rgb(232, 131, 250)
+}
+.socialIcon {
+    text-align: center;
+    display: block; 
+    color: #17a2b8;
+    margin: 5px;
+    font-size: 35px;
+
+}
+footer section {
+    display: flex;
+}
+
+#github {
+    margin-left: auto;
+}
+#email {
+    margin-right: auto;
+}
+
 
 
 /* Media Queries for Responsive Web Design - 768px Max-Width */
@@ -129,4 +165,5 @@ footer p {
         margin-left: auto;
         margin-right: auto;
     }
+    
 }
