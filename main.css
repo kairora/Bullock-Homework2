@@ -48,7 +48,7 @@ footer {
 }
 footer .bg-dark {
     margin-bottom: 0;
-    height: 100px;
+    height: 115px;
 }
 footer p {
     text-align: center;
@@ -133,7 +133,9 @@ footer section {
         max-height: 200px;
         float: none !important;;
         padding-bottom: 24px;
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto !important;;
+        padding-bottom: 0 !important;;
         display: block;
     }
     /* Navbar and navbar element styles at 640px width */
