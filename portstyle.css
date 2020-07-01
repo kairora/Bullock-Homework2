@@ -6,12 +6,15 @@ h1 {
 .navbar {
     height: 115px;
 }
+.navbar-brand {
+    background-color: #17a2b8;
+}
 
 nav h1 {
     height: 115px;
     padding: 32px 16px 0 16px;
     margin: 47px;
-    background: -webkit-linear-gradient(white, rgb(247, 204, 255));background-color: #17a2b8;
+    background: -webkit-linear-gradient(white, rgb(247, 204, 255));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -190,4 +193,20 @@ footer section {
     footer {
         position: sticky;
     }     
+}
+@media (max-width: 375px) {
+    .child {
+        margin-left: 0px;
+        width: 313px;
+    }
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 25px;
+    }
+}
+@media (max-width: 320px) {
+    .child {
+        width: 258px;
+    }
 }
