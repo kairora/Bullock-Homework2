@@ -6,18 +6,18 @@ h1 {
 .navbar {
     height: 115px;
 }
-.navbar-brand {
+/* .navbar-brand {
     background-color: #17a2b8;
-}
+} */
 
 nav h1 {
     height: 115px;
     padding: 32px 16px 0 16px;
     margin: 47px;
-    background: -webkit-linear-gradient(white, rgb(247, 204, 255));
-    -webkit-background-clip: text;
+    /* background: -webkit-linear-gradient(white, rgb(247, 204, 255)); */
+    /* -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 
 }
 
@@ -33,6 +33,15 @@ body {
 .card {
     margin: 48px;
     max-width: 591px;
+}
+.tooltip-inner {
+    background-color: #17a2b8;
+    color: white;
+}
+.githubIcon {
+    color: #17a2b8;
+    position: absolute;
+    right: 7%;
 }
 .card .col-md-6, .card .col-md-12 {
     padding: 0;
@@ -54,9 +63,21 @@ body {
     position: absolute;
     margin-top: 90px;
     margin-left: 60px;
-    width: 199px;
+    width: 200px;
     height: 45px;
     align-items: center;
+    
+}
+.child a {
+    color: white;
+    
+}
+.child p {
+    font-size: 17px;
+}
+
+.child a:hover {
+    color: pink;    
 }
 .card h1 {
     margin-bottom: 25px;
@@ -80,7 +101,7 @@ footer p {
 #linkedin {
     color: rgb(247, 204, 255);
 }
-#linkedin:hover {
+#linkedin:hover, #tele:hover {
     color: rgb(232, 131, 250)
 }
 .socialIcon {
@@ -98,8 +119,9 @@ footer section {
 #github {
     margin-left: auto;
 }
-#email {
+#tele {
     margin-right: auto;
+    color: rgb(247, 204, 255);
 }
 .border-info {
     border-top-width: 5px !important;;
@@ -193,6 +215,17 @@ footer section {
     footer {
         position: sticky;
     }     
+}
+@media (max-width: 425px) {
+    .child {
+        margin-left: 0px;
+        width: 363px;
+    }
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 25px;
+    }
 }
 @media (max-width: 375px) {
     .child {
