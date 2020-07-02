@@ -54,17 +54,21 @@ body {
     position: absolute;
     margin-top: 90px;
     margin-left: 60px;
-    width: 199px;
+    width: 200px;
     height: 45px;
     align-items: center;
     
 }
 .child a {
     color: white;
+    
+}
+.child p {
+    font-size: 17px;
 }
 
 .child a:hover {
-    color: pink;
+    color: pink;    
 }
 .card h1 {
     margin-bottom: 25px;
