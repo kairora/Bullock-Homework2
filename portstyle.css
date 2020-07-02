@@ -34,6 +34,15 @@ body {
     margin: 48px;
     max-width: 591px;
 }
+.tooltip-inner {
+    background-color: #17a2b8;
+    color: white;
+}
+.githubIcon {
+    color: #17a2b8;
+    position: absolute;
+    right: 7%;
+}
 .card .col-md-6, .card .col-md-12 {
     padding: 0;
 }
