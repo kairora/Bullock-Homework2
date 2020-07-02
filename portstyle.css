@@ -98,8 +98,9 @@ footer section {
 #github {
     margin-left: auto;
 }
-#email {
+#tele {
     margin-right: auto;
+    color: rgb(247, 204, 255);
 }
 .border-info {
     border-top-width: 5px !important;;
