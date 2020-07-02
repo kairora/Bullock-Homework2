@@ -80,7 +80,7 @@ footer p {
 #linkedin {
     color: rgb(247, 204, 255);
 }
-#linkedin:hover {
+#linkedin:hover, #tele:hover {
     color: rgb(232, 131, 250)
 }
 .socialIcon {
