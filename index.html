@@ -1,58 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Brianna's Portfolio - About</title>
-        <!-- Links Bootstrap CDN -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
-        <link rel="stylesheet" href="main.css">
-        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <!-- Creates a header with a navbar inside -->
-        <header>
-            <!-- Navbar from Bootstrap -->
-            <nav class="navbar navbar-expand-md navbar-light bg-light border-bottom">
-                <!-- Links navbar "header" to About/Home page -->
-                <a class="navbar-brand" href="index.html"><h1 class="bg-info text-white">Brianna Bullock</h1></a>
-                <!-- Unordered List of Nav link items About, Portfolio, Contact -->
-                <ul class="navbar-nav ml-auto navbar-right">
-                    <li class="nav-item active">
-                        <!-- Links navbar About item to About/Home page -->
-                        <a class="nav-link" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item active">
-                        <!-- Links navbar Portfolio item to portfolio page -->
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item active">
-                        <!-- Links navbar Contact item to Contact page -->
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brianna's Portfolio - About</title>
+    <!-- Links Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Creates a header with a navbar inside -->
+    <header>
+        <!-- Navbar from Bootstrap -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light border-bottom">
+            <!-- Links navbar "header" to About/Home page -->
+            <a class="navbar-brand" href="index.html">
+                <h1 class="bg-info text-white">Brianna Bullock</h1>
+            </a>
+            <!-- Unordered List of Nav link items About, Portfolio, Contact -->
+            <ul class="navbar-nav ml-auto navbar-right">
+                <li class="nav-item active">
+                    <!-- Links navbar About item to About/Home page -->
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item active">
+                    <!-- Links navbar Portfolio item to portfolio page -->
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                    <!-- Links navbar Contact item to Contact page -->
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
         <!-- Beginning of my header information -->
-        </header>
-        <div class="container-fluid">
-            <!-- <main> -->
-            <main>
-                <!-- Creates the first row in the main tag -->
-                <div class="row">
-                    <!-- creates the first column within the row for card element that will take up the entire row -->
-                    <div class="col-md-12">
-                        <!-- creates a card where main information about me will go -->
-                        <div class="card">
-                            <!-- a separate div for card body elements -->
-                            <div class="card-body">
-                                <!-- a heading, About me, for the card -->
-                                <h1 class="card-title text-info border-bottom p-4">About Me</h1>
-                                <!-- Creates a row for card elements-->
-                                <div class="row">
-                                    <!-- first column in card, my photo -->
-                                    <div class="col-md-12">
-                                        <img src="photos/brianna-photo.jpg" alt="Brianna's Responsive photo" id="briphoto" class="img-fluid float-left mr-4" />
+    </header>
+    <div class="container-fluid">
+        <!-- <main> -->
+        <main>
+            <!-- Creates the first row in the main tag -->
+            <div class="row">
+                <!-- creates the first column within the row for card element that will take up the entire row -->
+                <div class="col-md-12">
+                    <!-- creates a card where main information about me will go -->
+                    <div class="card">
+                        <!-- a separate div for card body elements -->
+                        <div class="card-body">
+                            <!-- a heading, About me, for the card -->
+                            
+                                <h1 class="card-title text-info border-bottom p-4">About Me 
                                     
                                         <a target="_blank"class="resumeIcon colortip" data-toggle="tooltip" data-placement="bottom" title="Brianna's Resume"  href="https://drive.google.com/file/d/1f2T8_CaVgSfkVgnR_IWfZJ9WhfD2qN7I/view?usp=sharing">
                                             <i class="fa fa-file-text ml-1 mb-3" aria-hidden="true"></i>
@@ -66,34 +67,65 @@
                                 <!-- first column in card, my photo -->
                                 <div class="col-md-12">
                                     <img src="photos/brianna-photo.jpg" alt="Brianna's Responsive photo" id="briphoto"
-                                        class="img-fluid float-left mr-2" />
+                                        class="img-fluid float-left mr-4" />
 
                                     <!-- second column in card, my description -->
-                                    
-                                        <p>Hello! I'm am an alumna of the prestigious University of Chicago where, with its diverse curriculum, I was afforded the opportunity to dive deep into a multitude of experiences with foreign language. My first foreign language studied, however, had not much to do with the way humans speak, but rather with the way computers communicate.  At UChicago, I first majored in Computer Science and learned the basics of coding. From there, language became the driving force behind the rest of my academic career. I branched off from computer science to the study of East Asian languages, learning how the languages embed themselves within media and technology. </p> 
-                                        <p>This field of study led me to spend over 3 years living abroad in South Korea, an internship in China, and many of trips into cities within Japan.  Now, I endeavor to return focus to studying computer languages.  Afterall, it is because of my love of computers that I came to develop a desire for understanding how culture influences the technology and media we see and use everyday.  Now, I am reimmersing myself within the realm of computer languages and full stack development to find just that: how computer language and social structures define and inform the media we see - and to create some really cool projects along the way!</p>
-                                    </div>
-                                    </div>
+
+                                    <p>Hello! I'm am an alumna of the prestigious University of Chicago where, with its
+                                        diverse curriculum, I was afforded the opportunity to dive deep into a multitude
+                                        of experiences with foreign language. My first foreign language studied,
+                                        however, had not much to do with the way humans speak, but rather with the way
+                                        computers communicate. At UChicago, I first majored in Computer Science and
+                                        learned the basics of coding. From there, language became the driving force
+                                        behind the rest of my academic career. I branched off from computer science to
+                                        the study of East Asian languages, learning how the languages embed themselves
+                                        within media and technology. </p>
+                                    <p>This field of study led me to spend over 3 years living abroad in South Korea, an
+                                        internship in China, and many of trips into cities within Japan. Now, I endeavor
+                                        to return focus to studying computer languages. Afterall, it is because of my
+                                        love of computers that I came to develop a desire for understanding how culture
+                                        influences the technology and media we see and use everyday. Now, I am
+                                        reimmersing myself within the realm of computer languages and full stack
+                                        development to find just that: how computer language and social structures
+                                        define and inform the media we see - and to create some really cool projects
+                                        along the way!</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </main>
-            <footer>
-                <div class="row">
-                    <div class="col-md-12 p-0">
-                        <div class="p-3 bg-dark text-white border-top border-info">
-                            <p class="overflow-auto">© Copyright</p>
-                            <section>
-                                <a class="socialIcon" id="github" href="https://github.com/kairora"><i class="fa fa-github mb-3" aria-hidden="true"></i></a>
-                                <a class="socialIcon" id="linkedin" href="https://www.linkedin.com/in/briannabullock/"><i class="fa fa-linkedin ml-1 mb-3" aria-hidden="true"></i></a>
-                                <a class="socialIcon" id="email" href="mailto:brianna.bullock16@gmail.com"><i class="fa fa-envelope ml-1 mb-3" aria-hidden="true"></i></a>  
-                            </section>
-                        </div>
-                    </div>
+            </div>
+    </div>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="col-md-12 p-0">
+                <div class="p-3 bg-dark text-white border-top border-info">
+                    <p class="overflow-auto">© Copyright</p>
+                    <section>
+                        <a target="_blank" class="socialIcon" id="github" href="https://github.com/kairora"><i
+                            class="fa fa-github mb-3" aria-hidden="true"></i></a>
+                    <a target="_blank" class="socialIcon" id="linkedin" href="https://www.linkedin.com/in/briannabullock/"><i
+                            class="fa fa-linkedin ml-1 mb-3" aria-hidden="true"></i></a>
+                    <a target="_blank" class="socialIcon" id="email" href="mailto:brianna.bullock16@gmail.com"><i
+                            class="fa fa-envelope ml-1 mb-3" aria-hidden="true"></i></a>
+                    <a  target="_blank" class="socialIcon" id="tele" href="tel:000-000-0000"><i class="fa fa-mobile ml-1 mb-3"
+                            aria-hidden="true"></i></a>
+                    </section>
                 </div>
-            </footer>     
+            </div>
         </div>
-    </body>
-</html>  
+    </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        })
+    
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
