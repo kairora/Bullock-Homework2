@@ -25,6 +25,8 @@ body {
 .card {
     margin: 48px;
     max-width: 591px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .btn {
     width: 100px;

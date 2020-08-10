@@ -134,6 +134,18 @@ footer section {
     margin-left:16px;
 }
 /* Media Queries for Responsive Web Design - 768px Max-Width */
+@media (max-width: 1200px) {
+    .child {
+        width: 16.6vw;
+        margin-left: 5.7vw;
+    }
+}
+@media (max-width: 1025px) {
+    .child {
+        width: 19.5vw;
+        margin-left: 4.2vw;
+    }
+}
 @media (max-width: 768px) {
     .card {
         margin: 15px;
@@ -218,6 +230,14 @@ footer section {
     footer {
         position: sticky;
     }     
+}
+
+
+@media (max-width: 481px) {
+    .child {
+        width: 83.5vw;
+    margin-left: 1vw;
+    }
 }
 @media (max-width: 425px) {
     .child {
