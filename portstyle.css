@@ -32,7 +32,9 @@ body {
 /* Main & Card styles */
 .card {
     margin: 48px;
-    max-width: 591px;
+    max-width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 .tooltip-inner {
     background-color: #17a2b8;
@@ -62,7 +64,7 @@ body {
 .child {
     position: absolute;
     margin-top: 90px;
-    margin-left: 60px;
+    margin-left: 8.881vw;
     width: 200px;
     height: 45px;
     align-items: center;
@@ -161,8 +163,8 @@ footer section {
     .child {
         position: absolute;
         margin-top: 120px;
-        margin-left: 39px;
-        width: 300px;
+        margin-left: 2.1vw;
+        width: 200px;
         height: 45px;
         align-items: center;
     }
@@ -204,7 +206,7 @@ footer section {
     .child {
         position: absolute;
         margin-top: 199px;
-        margin-left: 99px;
+        margin-left: 13.2vw;
         width: 400px;
         height: 45px;
         align-items: center;
@@ -219,7 +221,7 @@ footer section {
 @media (max-width: 425px) {
     .child {
         margin-left: 0px;
-        width: 363px;
+        width: inherit;
     }
     .card {
         margin-left: auto;
@@ -230,7 +232,7 @@ footer section {
 @media (max-width: 375px) {
     .child {
         margin-left: 0px;
-        width: 313px;
+        width: inherit;
     }
     .card {
         margin-left: auto;
@@ -240,6 +242,6 @@ footer section {
 }
 @media (max-width: 320px) {
     .child {
-        width: 258px;
+        width: inherit;
     }
 }
