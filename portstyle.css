@@ -39,6 +39,7 @@ body {
 .tooltip-inner {
     background-color: #17a2b8;
     color: white;
+    margin: 15px;
 }
 .githubIcon {
     color: #17a2b8;
