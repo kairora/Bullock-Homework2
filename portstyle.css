@@ -6,9 +6,7 @@ h1 {
 .navbar {
     height: 115px;
 }
-/* .navbar-brand {
-    background-color: #17a2b8;
-} */
+
 
 nav h1 {
     height: 115px;
@@ -25,16 +23,21 @@ nav h1 {
     background-color: #17a2b8;
     color: white;
 }
+.nav-link:hover {
+    background-color: #17a2b8;
+    color: white;
+}
 
 body {
     background: -webkit-gradient(linear, left top, left bottom, from(rgb(204, 238, 255)), to(rgb(247, 204, 255))) fixed; /* Gradient code is from Overstack: https://stackoverflow.com/questions/2869212/css3-gradient-background-set-on-body-doesnt-stretch-but-instead-repeats */
 }
 /* Main & Card styles */
 .card {
-    margin: 48px;
+    margin-top: 28px;
     max-width: 85vw;
     margin-left: auto;
     margin-right: auto;
+    max-height: 71vh;
 }
 .tooltip-inner {
     background-color: #17a2b8;
@@ -52,6 +55,12 @@ body {
 .parent {
     position: relative;
     
+}
+.projectrow {
+    transition: transform .2s;
+}
+.projectrow:hover {
+    transform: scale(1.3);
 }
 .child p {
     padding-top: 10px;
