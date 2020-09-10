@@ -144,6 +144,12 @@ footer section {
 }
 
 
+@media (max-width: 1024px) {
+    .logodiv .leftlogo, .leftlogo span {
+        margin-left: 0;
+    }
+}
+
 
 /* Media Queries for Responsive Web Design - 768px Max-Width */
 @media (max-width: 768px) {
